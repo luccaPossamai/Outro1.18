@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "mohard:item/scroll_artifact_opened"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "mohard:binded": 1.0
+      },
+      "model": "mohard:item/scroll_artifact_closed"
+    }
+  ]
+}

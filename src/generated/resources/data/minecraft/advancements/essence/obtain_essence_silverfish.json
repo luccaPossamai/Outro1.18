@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:essence/obtain_essence_shulker",
+  "display": {
+    "icon": {
+      "item": "mohard:essence_silverfish"
+    },
+    "title": {
+      "translate": "advancements.essence.silverfish"
+    },
+    "description": {
+      "translate": "advancements.essence.silverfish.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "essence_silverfish": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mohard:essence_silverfish"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "essence_silverfish"
+    ]
+  ]
+}

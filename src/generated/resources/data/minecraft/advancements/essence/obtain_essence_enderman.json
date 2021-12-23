@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:essence/obtain_essence_elder_guardian",
+  "display": {
+    "icon": {
+      "item": "mohard:essence_enderman"
+    },
+    "title": {
+      "translate": "advancements.essence.enderman"
+    },
+    "description": {
+      "translate": "advancements.essence.enderman.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "essence_enderman": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mohard:essence_enderman"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "essence_enderman"
+    ]
+  ]
+}

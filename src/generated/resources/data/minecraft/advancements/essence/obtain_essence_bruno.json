@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:essence/obtain_essence_ice_isolator",
+  "display": {
+    "icon": {
+      "item": "mohard:essence_bruno"
+    },
+    "title": {
+      "translate": "advancements.essence.bruno"
+    },
+    "description": {
+      "translate": "advancements.essence.bruno.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "essence_bruno": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mohard:essence_bruno"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "essence_bruno"
+    ]
+  ]
+}

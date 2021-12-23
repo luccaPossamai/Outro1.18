@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "mohard:block/dense_spruce_sapling"
+  }
+}

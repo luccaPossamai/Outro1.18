@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:essence/obtain_essence_zoglin",
+  "display": {
+    "icon": {
+      "item": "mohard:essence_zombie_villager"
+    },
+    "title": {
+      "translate": "advancements.essence.zombie_villager"
+    },
+    "description": {
+      "translate": "advancements.essence.zombie_villager.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "essence_zombie_villager": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mohard:essence_zombie_villager"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "essence_zombie_villager"
+    ]
+  ]
+}

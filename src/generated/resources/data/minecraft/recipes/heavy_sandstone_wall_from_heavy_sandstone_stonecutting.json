@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "mohard:heavy_sandstone"
+  },
+  "result": "mohard:heavy_sandstone_wall",
+  "count": 1
+}

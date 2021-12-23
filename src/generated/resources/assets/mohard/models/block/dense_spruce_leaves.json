@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "mohard:block/dense_spruce_leaves"
+  }
+}

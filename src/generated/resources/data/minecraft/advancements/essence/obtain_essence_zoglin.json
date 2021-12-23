@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:essence/obtain_essence_wither_skeleton",
+  "display": {
+    "icon": {
+      "item": "mohard:essence_zoglin"
+    },
+    "title": {
+      "translate": "advancements.essence.zoglin"
+    },
+    "description": {
+      "translate": "advancements.essence.zoglin.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "essence_zoglin": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mohard:essence_zoglin"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "essence_zoglin"
+    ]
+  ]
+}

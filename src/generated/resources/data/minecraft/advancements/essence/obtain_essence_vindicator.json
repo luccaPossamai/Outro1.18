@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:essence/obtain_essence_vex",
+  "display": {
+    "icon": {
+      "item": "mohard:essence_vindicator"
+    },
+    "title": {
+      "translate": "advancements.essence.vindicator"
+    },
+    "description": {
+      "translate": "advancements.essence.vindicator.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "essence_vindicator": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mohard:essence_vindicator"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "essence_vindicator"
+    ]
+  ]
+}

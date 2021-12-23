@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "mohard:block/dense_sand"
+      },
+      {
+        "model": "mohard:block/dense_sand",
+        "y": 90
+      },
+      {
+        "model": "mohard:block/dense_sand",
+        "y": 180
+      },
+      {
+        "model": "mohard:block/dense_sand",
+        "y": 270
+      }
+    ]
+  }
+}

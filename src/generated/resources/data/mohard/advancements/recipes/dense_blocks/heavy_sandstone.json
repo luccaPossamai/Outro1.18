@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "mohard:heavy_sandstone"
+    ]
+  },
+  "criteria": {
+    "has_dense_sand": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mohard:dense_sand"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "mohard:heavy_sandstone"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_dense_sand",
+      "has_the_recipe"
+    ]
+  ]
+}

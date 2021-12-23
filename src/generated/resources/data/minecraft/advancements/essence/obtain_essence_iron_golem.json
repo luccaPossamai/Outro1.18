@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:essence/obtain_essence_villager",
+  "display": {
+    "icon": {
+      "item": "mohard:essence_iron_golem"
+    },
+    "title": {
+      "translate": "advancements.essence.iron_golem"
+    },
+    "description": {
+      "translate": "advancements.essence.iron_golem.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "essence_iron_golem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mohard:essence_iron_golem"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "essence_iron_golem"
+    ]
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:smooth_heavy_sandstone_stairs_from_smooth_heavy_sandstone_stonecutting"
+    ]
+  },
+  "criteria": {
+    "has_smooth_heavy_sandstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mohard:smooth_heavy_sandstone"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:smooth_heavy_sandstone_stairs_from_smooth_heavy_sandstone_stonecutting"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_smooth_heavy_sandstone",
+      "has_the_recipe"
+    ]
+  ]
+}

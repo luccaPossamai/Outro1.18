@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:essence/obtain_essence_wandering_trader",
+  "display": {
+    "icon": {
+      "item": "mohard:essence_wolf"
+    },
+    "title": {
+      "translate": "advancements.essence.wolf"
+    },
+    "description": {
+      "translate": "advancements.essence.wolf.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "essence_wolf": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mohard:essence_wolf"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "essence_wolf"
+    ]
+  ]
+}

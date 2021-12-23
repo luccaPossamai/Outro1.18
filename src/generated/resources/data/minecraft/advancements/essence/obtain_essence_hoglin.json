@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:essence/obtain_essence_guardian",
+  "display": {
+    "icon": {
+      "item": "mohard:essence_hoglin"
+    },
+    "title": {
+      "translate": "advancements.essence.hoglin"
+    },
+    "description": {
+      "translate": "advancements.essence.hoglin.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "essence_hoglin": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mohard:essence_hoglin"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "essence_hoglin"
+    ]
+  ]
+}

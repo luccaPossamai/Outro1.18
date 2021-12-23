@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=top": {
+      "model": "mohard:block/dense_spruce_slab_top"
+    },
+    "type=bottom": {
+      "model": "mohard:block/dense_spruce_slab"
+    },
+    "type=double": {
+      "model": "mohard:block/dense_spruce_planks"
+    }
+  }
+}

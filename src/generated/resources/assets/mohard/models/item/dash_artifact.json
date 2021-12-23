@@ -1,0 +1,20 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "mohard:item/dash_artifact_0"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "mohard:state": 1.0
+      },
+      "model": "mohard:item/dash_artifact_1"
+    },
+    {
+      "predicate": {
+        "mohard:state": 2.0
+      },
+      "model": "mohard:item/dash_artifact_2"
+    }
+  ]
+}

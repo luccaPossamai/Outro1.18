@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:essence/obtain_essence_strider",
+  "display": {
+    "icon": {
+      "item": "mohard:essence_trader_llama"
+    },
+    "title": {
+      "translate": "advancements.essence.trader_llama"
+    },
+    "description": {
+      "translate": "advancements.essence.trader_llama.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "essence_trader_llama": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mohard:essence_trader_llama"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "essence_trader_llama"
+    ]
+  ]
+}

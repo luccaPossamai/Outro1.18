@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:essence/root",
+  "display": {
+    "icon": {
+      "item": "mohard:essence_salmon"
+    },
+    "title": {
+      "translate": "advancements.essence.essence_salmon.title"
+    },
+    "description": {
+      "translate": "advancements.essence.essence_salmon.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "essence_salmon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mohard:essence_salmon"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "essence_salmon"
+    ]
+  ]
+}

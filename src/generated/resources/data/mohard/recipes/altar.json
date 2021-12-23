@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#\u0026#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "mohard:dense_sand"
+    },
+    "\u0026": {
+      "item": "mohard:true_void_remnants"
+    }
+  },
+  "result": {
+    "item": "mohard:altar"
+  }
+}

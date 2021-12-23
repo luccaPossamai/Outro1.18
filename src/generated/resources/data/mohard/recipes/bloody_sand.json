@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mohard:dense_sand"
+    },
+    {
+      "item": "mohard:true_void_remnants"
+    }
+  ],
+  "result": {
+    "item": "mohard:bloody_sand"
+  }
+}

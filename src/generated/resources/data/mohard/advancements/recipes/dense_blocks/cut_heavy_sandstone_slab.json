@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "mohard:cut_heavy_sandstone_slab"
+    ]
+  },
+  "criteria": {
+    "has_cut_heavy_sandstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mohard:cut_heavy_sandstone"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "mohard:cut_heavy_sandstone_slab"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_cut_heavy_sandstone",
+      "has_the_recipe"
+    ]
+  ]
+}

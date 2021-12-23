@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "side": "mohard:block/dense_spruce_planks",
+    "bottom": "mohard:block/dense_spruce_planks",
+    "top": "mohard:block/dense_spruce_planks"
+  }
+}

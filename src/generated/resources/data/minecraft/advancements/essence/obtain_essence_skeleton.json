@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:essence/obtain_essence_silverfish",
+  "display": {
+    "icon": {
+      "item": "mohard:essence_skeleton"
+    },
+    "title": {
+      "translate": "advancements.essence.skeleton"
+    },
+    "description": {
+      "translate": "advancements.essence.skeleton.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "essence_skeleton": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mohard:essence_skeleton"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "essence_skeleton"
+    ]
+  ]
+}

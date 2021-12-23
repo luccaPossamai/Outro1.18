@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:essence/obtain_essence_cow",
+  "display": {
+    "icon": {
+      "item": "mohard:essence_donkey"
+    },
+    "title": {
+      "translate": "advancements.essence.donkey"
+    },
+    "description": {
+      "translate": "advancements.essence.donkey.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "essence_donkey": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mohard:essence_donkey"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "essence_donkey"
+    ]
+  ]
+}

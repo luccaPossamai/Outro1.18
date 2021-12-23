@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "mohard:heavy_sandstone_slab",
+    "mohard:smooth_heavy_sandstone_slab",
+    "mohard:cut_heavy_sandstone_slab",
+    "mohard:dense_spruce_slab"
+  ]
+}

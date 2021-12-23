@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "mohard:altar",
+    "mohard:essence_exchanger",
+    "mohard:heavy_sandstone",
+    "mohard:smooth_heavy_sandstone",
+    "mohard:cut_heavy_sandstone",
+    "mohard:chiseled_heavy_sandstone",
+    "mohard:heavy_sandstone_slab",
+    "mohard:smooth_heavy_sandstone_slab",
+    "mohard:cut_heavy_sandstone_slab",
+    "mohard:heavy_sandstone_stairs",
+    "mohard:smooth_heavy_sandstone_stairs",
+    "mohard:heavy_sandstone_wall",
+    "mohard:coppered_deepslate"
+  ]
+}

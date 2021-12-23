@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:essence/obtain_essence_llama",
+  "display": {
+    "icon": {
+      "item": "mohard:essence_mooshroom"
+    },
+    "title": {
+      "translate": "advancements.essence.mooshroom"
+    },
+    "description": {
+      "translate": "advancements.essence.mooshroom.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "essence_mooshroom": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mohard:essence_mooshroom"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "essence_mooshroom"
+    ]
+  ]
+}

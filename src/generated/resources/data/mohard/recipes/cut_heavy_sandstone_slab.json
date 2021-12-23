@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "mohard:cut_heavy_sandstone"
+    }
+  },
+  "result": {
+    "item": "mohard:cut_heavy_sandstone_slab",
+    "count": 6
+  }
+}

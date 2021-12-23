@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:essence/obtain_essence_golden_armored_pillager",
+  "display": {
+    "icon": {
+      "item": "mohard:essence_diamond_armored_pillager"
+    },
+    "title": {
+      "translate": "advancements.essence.diamond_armored_pillager"
+    },
+    "description": {
+      "translate": "advancements.essence.diamond_armored_pillager.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "essence_diamond_armored_pillager": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mohard:essence_diamond_armored_pillager"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "essence_diamond_armored_pillager"
+    ]
+  ]
+}

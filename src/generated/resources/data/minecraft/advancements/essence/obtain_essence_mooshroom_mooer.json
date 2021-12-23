@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:essence/obtain_essence_exchanger",
+  "display": {
+    "icon": {
+      "item": "mohard:essence_mooshroom_mooer"
+    },
+    "title": {
+      "translate": "advancements.essence.mooshroom_mooer"
+    },
+    "description": {
+      "translate": "advancements.essence.mooshroom_mooer.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "essence_mooshroom_mooer": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mohard:essence_mooshroom_mooer"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "essence_mooshroom_mooer"
+    ]
+  ]
+}

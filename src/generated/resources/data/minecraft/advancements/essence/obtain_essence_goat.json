@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:essence/obtain_essence_fox",
+  "display": {
+    "icon": {
+      "item": "mohard:essence_goat"
+    },
+    "title": {
+      "translate": "advancements.essence.goat"
+    },
+    "description": {
+      "translate": "advancements.essence.goat.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "essence_goat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mohard:essence_goat"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "essence_goat"
+    ]
+  ]
+}

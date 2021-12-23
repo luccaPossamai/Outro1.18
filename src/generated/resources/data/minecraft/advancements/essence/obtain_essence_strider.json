@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:essence/obtain_essence_skeleton_horse",
+  "display": {
+    "icon": {
+      "item": "mohard:essence_strider"
+    },
+    "title": {
+      "translate": "advancements.essence.strider"
+    },
+    "description": {
+      "translate": "advancements.essence.strider.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "essence_strider": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mohard:essence_strider"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "essence_strider"
+    ]
+  ]
+}

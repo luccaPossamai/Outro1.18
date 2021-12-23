@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:essence/obtain_essence_zombie",
+  "display": {
+    "icon": {
+      "item": "mohard:essence_blaze"
+    },
+    "title": {
+      "translate": "advancements.essence.blaze"
+    },
+    "description": {
+      "translate": "advancements.essence.blaze.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "essence_blaze": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mohard:essence_blaze"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "essence_blaze"
+    ]
+  ]
+}

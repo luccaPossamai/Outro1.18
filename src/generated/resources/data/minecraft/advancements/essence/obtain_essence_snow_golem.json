@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:essence/obtain_essence_iron_golem",
+  "display": {
+    "icon": {
+      "item": "mohard:essence_snow_golem"
+    },
+    "title": {
+      "translate": "advancements.essence.snow_golem"
+    },
+    "description": {
+      "translate": "advancements.essence.snow_golem.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "essence_snow_golem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mohard:essence_snow_golem"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "essence_snow_golem"
+    ]
+  ]
+}

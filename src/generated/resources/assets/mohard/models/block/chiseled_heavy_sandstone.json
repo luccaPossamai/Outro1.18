@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "side": "mohard:block/chiseled_heavy_sandstone",
+    "bottom": "mohard:block/heavy_sandstone_bottom",
+    "top": "mohard:block/heavy_sandstone_top"
+  }
+}

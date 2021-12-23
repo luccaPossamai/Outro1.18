@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=top": {
+      "model": "mohard:block/smooth_heavy_sandstone_slab_top"
+    },
+    "type=bottom": {
+      "model": "mohard:block/smooth_heavy_sandstone_slab"
+    },
+    "type=double": {
+      "model": "mohard:block/smooth_heavy_sandstone"
+    }
+  }
+}

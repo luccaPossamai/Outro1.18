@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "mohard:bloody_sand"
+    ]
+  },
+  "criteria": {
+    "has_true_void_remnants": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mohard:true_void_remnants"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "mohard:bloody_sand"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_true_void_remnants",
+      "has_the_recipe"
+    ]
+  ]
+}

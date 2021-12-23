@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:essence/obtain_essence_slime",
+  "display": {
+    "icon": {
+      "item": "mohard:essence_spider"
+    },
+    "title": {
+      "translate": "advancements.essence.spider"
+    },
+    "description": {
+      "translate": "advancements.essence.spider.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "essence_spider": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mohard:essence_spider"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "essence_spider"
+    ]
+  ]
+}

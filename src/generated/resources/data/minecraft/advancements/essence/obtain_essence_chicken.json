@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:essence/obtain_essence_cat",
+  "display": {
+    "icon": {
+      "item": "mohard:essence_chicken"
+    },
+    "title": {
+      "translate": "advancements.essence.chicken"
+    },
+    "description": {
+      "translate": "advancements.essence.chicken.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "essence_chicken": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mohard:essence_chicken"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "essence_chicken"
+    ]
+  ]
+}

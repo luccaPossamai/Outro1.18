@@ -1,0 +1,68 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "mohard:item/basic_syntonizer"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "mohard:tier": 1.0
+      },
+      "model": "mohard:item/wooden_syntonizer"
+    },
+    {
+      "predicate": {
+        "mohard:tier": 2.0
+      },
+      "model": "mohard:item/stone_syntonizer"
+    },
+    {
+      "predicate": {
+        "mohard:tier": 3.0
+      },
+      "model": "mohard:item/copper_syntonizer"
+    },
+    {
+      "predicate": {
+        "mohard:tier": 4.0
+      },
+      "model": "mohard:item/iron_syntonizer"
+    },
+    {
+      "predicate": {
+        "mohard:tier": 5.0
+      },
+      "model": "mohard:item/lapis_syntonizer"
+    },
+    {
+      "predicate": {
+        "mohard:tier": 6.0
+      },
+      "model": "mohard:item/redstone_syntonizer"
+    },
+    {
+      "predicate": {
+        "mohard:tier": 7.0
+      },
+      "model": "mohard:item/gold_syntonizer"
+    },
+    {
+      "predicate": {
+        "mohard:tier": 8.0
+      },
+      "model": "mohard:item/diamond_syntonizer"
+    },
+    {
+      "predicate": {
+        "mohard:tier": 9.0
+      },
+      "model": "mohard:item/netherite_syntonizer"
+    },
+    {
+      "predicate": {
+        "mohard:tier": 10.0
+      },
+      "model": "mohard:item/vilio_syntonizer"
+    }
+  ]
+}

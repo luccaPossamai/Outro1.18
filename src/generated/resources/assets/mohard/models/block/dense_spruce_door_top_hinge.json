@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_rh",
+  "textures": {
+    "bottom": "mohard:block/dense_spruce_door_bottom",
+    "top": "mohard:block/dense_spruce_door_top"
+  }
+}

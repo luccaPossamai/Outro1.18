@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:essence/obtain_essence_hoglin",
+  "display": {
+    "icon": {
+      "item": "mohard:essence_husk"
+    },
+    "title": {
+      "translate": "advancements.essence.husk"
+    },
+    "description": {
+      "translate": "advancements.essence.husk.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "essence_husk": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mohard:essence_husk"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "essence_husk"
+    ]
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:essence/obtain_essence_zombified_piglin",
+  "display": {
+    "icon": {
+      "item": "mohard:essence_illusioner"
+    },
+    "title": {
+      "translate": "advancements.essence.illusioner"
+    },
+    "description": {
+      "translate": "advancements.essence.illusioner.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "essence_illusioner": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mohard:essence_illusioner"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "essence_illusioner"
+    ]
+  ]
+}

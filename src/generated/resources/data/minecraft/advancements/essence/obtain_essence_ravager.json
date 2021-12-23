@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:essence/obtain_essence_pillager",
+  "display": {
+    "icon": {
+      "item": "mohard:essence_ravager"
+    },
+    "title": {
+      "translate": "advancements.essence.ravager"
+    },
+    "description": {
+      "translate": "advancements.essence.ravager.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "essence_ravager": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mohard:essence_ravager"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "essence_ravager"
+    ]
+  ]
+}

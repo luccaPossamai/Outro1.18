@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "mohard:smooth_heavy_sandstone"
+  },
+  "result": "mohard:smooth_heavy_sandstone_slab",
+  "count": 2
+}

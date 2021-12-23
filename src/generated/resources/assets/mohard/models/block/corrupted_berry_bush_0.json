@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "mohard:block/corrupted_berry_bush_0"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:essence/obtain_essence_blaze",
+  "display": {
+    "icon": {
+      "item": "mohard:essence_cave_spider"
+    },
+    "title": {
+      "translate": "advancements.essence.cave_spider"
+    },
+    "description": {
+      "translate": "advancements.essence.cave_spider.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "essence_cave_spider": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mohard:essence_cave_spider"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "essence_cave_spider"
+    ]
+  ]
+}

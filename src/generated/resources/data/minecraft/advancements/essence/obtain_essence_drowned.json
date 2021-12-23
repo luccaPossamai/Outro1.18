@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:essence/obtain_essence_creeper",
+  "display": {
+    "icon": {
+      "item": "mohard:essence_drowned"
+    },
+    "title": {
+      "translate": "advancements.essence.drowned"
+    },
+    "description": {
+      "translate": "advancements.essence.drowned.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "essence_drowned": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mohard:essence_drowned"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "essence_drowned"
+    ]
+  ]
+}

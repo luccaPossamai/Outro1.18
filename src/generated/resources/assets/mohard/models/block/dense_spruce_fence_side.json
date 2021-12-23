@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_side",
+  "textures": {
+    "texture": "mohard:block/dense_spruce_planks"
+  }
+}

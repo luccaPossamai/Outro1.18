@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:essence/obtain_essence_endermite",
+  "display": {
+    "icon": {
+      "item": "mohard:essence_evoker"
+    },
+    "title": {
+      "translate": "advancements.essence.evoker"
+    },
+    "description": {
+      "translate": "advancements.essence.evoker.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "essence_evoker": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mohard:essence_evoker"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "essence_evoker"
+    ]
+  ]
+}

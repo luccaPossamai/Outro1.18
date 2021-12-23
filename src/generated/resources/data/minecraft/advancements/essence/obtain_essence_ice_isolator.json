@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:essence/obtain_essence_zombie_horse",
+  "display": {
+    "icon": {
+      "item": "mohard:essence_ice_isolator"
+    },
+    "title": {
+      "translate": "advancements.essence.ice_isolator"
+    },
+    "description": {
+      "translate": "advancements.essence.ice_isolator.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "essence_ice_isolator": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mohard:essence_ice_isolator"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "essence_ice_isolator"
+    ]
+  ]
+}

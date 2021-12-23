@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:essence/obtain_essence_husk",
+  "display": {
+    "icon": {
+      "item": "mohard:essence_magma_cube"
+    },
+    "title": {
+      "translate": "advancements.essence.magma_cube"
+    },
+    "description": {
+      "translate": "advancements.essence.magma_cube.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "essence_magma_cube": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mohard:essence_magma_cube"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "essence_magma_cube"
+    ]
+  ]
+}
